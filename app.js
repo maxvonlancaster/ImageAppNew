@@ -57,6 +57,16 @@ app.get("/delete", function(request, response){
   fs.unlinkSync(imagePath);
 })
 
+app.get("/delete-all", function(request, response){
+  let dir = __dirname + "/images/";
+  fs.readdir(dir, (err, files) => {
+    files.forEach(element => {
+      let imagePath = __dirname + "/images/" + element;
+      fs.unlinkSync(imagePath);})
+    });
+    response.sendFile(__dirname + "/dist/index.html");
+})
+
 
 
 
