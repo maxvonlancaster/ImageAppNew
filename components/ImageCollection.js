@@ -35,7 +35,7 @@ export default class ImageCollection extends React.Component {
 
     render() {
         return (
-            <div className="container">
+            <div className="container mt-5">
                 <div className="row">
                     {this.renderImages()}
                 </div>

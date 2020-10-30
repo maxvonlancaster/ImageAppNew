@@ -17,7 +17,7 @@ export default class ImageUpload extends React.Component {
             width: "400px"
         }
         return (
-            <div className="col card">
+            <div className="col card mt-4">
                 <iframe name="dummyframe" id="dummyframe" style={iStyle} ></iframe>
                 <form method="POST" action="/upload" encType="multipart/form-data" target="dummyframe">
                     <div className="form-group">

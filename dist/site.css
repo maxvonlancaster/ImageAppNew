@@ -3,3 +3,7 @@
     min-height: 100px !important;
     height: 230px !important;
 }
+
+#delete-all-button.relative{
+    top: 100px
+}

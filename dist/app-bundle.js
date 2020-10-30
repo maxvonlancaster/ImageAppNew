@@ -370,7 +370,7 @@ function (_React$Component) {
     key: "render",
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "container"
+        className: "container mt-5"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "row"
       }, this.renderImages()));
@@ -441,7 +441,7 @@ function (_React$Component) {
         width: "400px"
       };
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "col card"
+        className: "col card mt-4"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
         name: "dummyframe",
         id: "dummyframe",
